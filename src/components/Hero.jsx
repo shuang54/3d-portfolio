@@ -16,7 +16,7 @@ const Hero = () => {
         </div>
 
         {/* 右边标题部分 */}
-        <div>
+        <div className=' select-none'>
           <h1 className={`${styles.heroHeadText} text-white`}>
           Hi, I'm 
           <span className='text-[#915eff]'>
