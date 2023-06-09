@@ -28,7 +28,7 @@ import tesla from "./company/tesla.png";
 
 import airbnb from './airbnb.png'
 import bard from "./bard.png";
-import apple from "./apple.png";
+import apple from "./Apple.png";
 
 export {
   logo,
