@@ -19,9 +19,9 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  airbnb,
+  bard,
+  apple,
   threejs
 } from '../assets'
 
@@ -198,12 +198,11 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Car Rent',
-    description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+    name: 'Airbnb-copy',
+    description: '旅游租房-模仿airbnb官网',
     tags: [
       {
-        name: 'react',
+        name: 'next.js',
         color: 'blue-text-gradient'
       },
       {
@@ -215,41 +214,35 @@ const projects = [
         color: 'pink-text-gradient'
       }
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/'
+    image: airbnb,
+    source_code_link: 'https://github.com/shuang54/airbnb'
   },
   {
-    name: 'Job IT',
-    description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+    name: 'bard-google-chatgpt',
+    description: 'bard-google-copy',
     tags: [
       {
-        name: 'react',
+        name: 'next.js',
         color: 'blue-text-gradient'
       },
       {
-        name: 'restapi',
+        name: 'tailwind',
         color: 'green-text-gradient'
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient'
       }
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/'
+    image: bard,
+    source_code_link: 'https://github.com/shuang54/bard-google-chatgpt'
   },
   {
-    name: 'Trip Guide',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+    name: '3D-Apple-iPhone-Website',
+    description: '3D-Apple-iPhone-Website',
     tags: [
       {
-        name: 'nextjs',
+        name: 'three.js',
         color: 'blue-text-gradient'
       },
       {
-        name: 'supabase',
+        name: 'react',
         color: 'green-text-gradient'
       },
       {
@@ -257,8 +250,8 @@ const projects = [
         color: 'pink-text-gradient'
       }
     ],
-    image: tripguide,
-    source_code_link: 'https://github.com/'
+    image: apple,
+    source_code_link: 'https://github.com/shuang54/3D-Apple-iPhone-Website'
   }
 ]
 
